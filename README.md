@@ -1,2 +1,2 @@
-# tvl
-Three Valued Logic in Javascript
+# <img src="./tvl.png"/>
+### Three Valued Logic in Javascript

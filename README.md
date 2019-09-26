@@ -5,11 +5,11 @@ This library provides the user with operations of Non - Classical Trivalent or T
 
 ### Node
 ```
-npm i vachan
+npm i tvl
 ```
 ### Browser
 ```
-<script src="https://unpkg.com/vachan"></script>
+<script src="https://unpkg.com/tvl"></script>
 ```
 
 ## Documentation

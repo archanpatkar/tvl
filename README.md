@@ -3,11 +3,11 @@ This library provides the user with operations of Non - Classical Trivalent or T
 
 ## Installtion
 
-### `NPM`
-```npm install tvl```
+NPM
+### `npm install tvl`
 
-### `Browser`
-```<script src=""></script>```
+Browser
+### `<script src=""></script>`
 
 ## Documentation
 [Website](https://tvl.archan.io)

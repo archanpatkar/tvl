@@ -1,0 +1,22 @@
+{
+  "name": "tvl",
+  "version": "1.0.0",
+  "description": "Three Valued Login in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archanpatkar/tvl.git"
+  },
+  "author": "Archan Patkar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/archanpatkar/tvl/issues"
+  },
+  "homepage": "https://github.com/archanpatkar/tvl#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}

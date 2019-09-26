@@ -3,11 +3,14 @@ This library provides the user with operations of Non - Classical Trivalent or T
 
 ## Installtion
 
-NPM
-### `npm install tvl`
-
-Browser
-### `<script src=""></script>`
+### Node
+```
+npm i vachan
+```
+### Browser
+```
+<script src="https://unpkg.com/vachan"></script>
+```
 
 ## Documentation
 [Website](https://tvl.archan.io)

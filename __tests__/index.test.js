@@ -1,4 +1,4 @@
-const tvl = require('../index');
+const tvl = require('../src/index');
 
 test('Converts truth values to ternary', () => {
     expect(tvl.convert(true)).toBe(1);

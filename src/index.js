@@ -22,7 +22,7 @@ const xor = (x,y) => and(or(x,y),not(and(x,y)));
 const imp = (x,y) => or(not(x),y);
 const bi = (x,y) => and(imp(x,y),imp(y,x));
 
-module.exports = {
+const tvl = {
     not,
     and,
     or,
@@ -35,3 +35,5 @@ module.exports = {
     convert,
     revert
 };
+
+if(typeof(window) === "undefined") module.exports = tvl;

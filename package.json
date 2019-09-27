@@ -4,7 +4,8 @@
   "description": "Three Valued Login in Javascript",
   "main": "index.js",
   "scripts": {
-    "test": "npx jest"
+    "test": "npx jest",
+    "build": "node build.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/archanpatkar/tvl#readme",
   "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "babel-preset-minify": "^0.5.1",
     "jest": "^24.9.0"
   }
 }

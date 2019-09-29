@@ -1,7 +1,7 @@
 {
   "name": "tvl",
   "version": "1.0.0",
-  "description": "Three Valued Login in Javascript",
+  "description": "Three Valued Logic in Javascript",
   "main": "index.js",
   "scripts": {
     "test": "npx jest",

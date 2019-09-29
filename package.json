@@ -1,7 +1,8 @@
 {
   "name": "tvl",
   "version": "1.0.0",
-  "description": "Three Valued Logic in Javascript",
+  "description": "A 365B Three Valued Logic in Javascript",
+  "keywords": ["Logic","Tiny","Small","Three","Valued","Three Valued Logic","Propositional","Propositional Logic"],
   "main": "index.js",
   "scripts": {
     "test": "npx jest",
@@ -16,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/archanpatkar/tvl/issues"
   },
-  "homepage": "https://github.com/archanpatkar/tvl#readme",
+  "homepage": "https://tvl.archan.io/",
   "devDependencies": {
     "@babel/core": "^7.6.2",
     "@babel/preset-env": "^7.6.2",

@@ -1,7 +1,7 @@
 {
   "name": "tvl",
-  "version": "1.0.2",
-  "description": "A 365B Three Valued Logic in Javascript",
+  "version": "1.0.3",
+  "description": "A 365B implementation of Three Valued Logic in Javascript",
   "keywords": ["Logic","Tiny","Small","Three","Valued","Three Valued Logic","Propositional","Propositional Logic"],
   "main": "index.js",
   "unpkg":"/dist/tvl.min.js",

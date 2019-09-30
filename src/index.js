@@ -13,8 +13,8 @@ const revert = v => {
 }
 
 const neg = a => -a;
-const min = (a,b) => a > b ? b : b > a ? a : a;
-const max = (a,b) => a > b ? a : b > a ? b : a;
+const min = (a,b) => a > b ? b : a;
+const max = (a,b) => a > b ? a : b;
 const not = x => revert(neg(convert(x)));
 const and = (x,y) => revert(min(convert(x),convert(y)));
 const or = (x,y) => revert(max(convert(x),convert(y)));

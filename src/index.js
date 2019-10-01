@@ -1,39 +1,22 @@
-const convert = v => {
+const tvl = {};
+tvl.convert = v => {
     if(v === true) return 1;
     else if(v === false) return -1;
     else if(v === undefined) return 0;
     throw new Error("Please pass a valid truth value");
-}
-
-const revert = v => {
+};
+tvl.revert = v => {
     if(v === 1) return true;
     else if(v === -1) return false;
     else if(v === 0) return undefined;
     throw new Error("Please pass a valid number");
-}
-
-const neg = a => -a;
+};
 const min = (a,b) => a > b ? b : a;
 const max = (a,b) => a > b ? a : b;
-const not = x => revert(neg(convert(x)));
-const and = (x,y) => revert(min(convert(x),convert(y)));
-const or = (x,y) => revert(max(convert(x),convert(y)));
-const xor = (x,y) => and(or(x,y),not(and(x,y)));
-const imp = (x,y) => or(not(x),y);
-const bi = (x,y) => and(imp(x,y),imp(y,x));
-
-const tvl = {
-    not,
-    and,
-    or,
-    xor,
-    imp,
-    bi,
-    neg,
-    min,
-    max,
-    convert,
-    revert
-};
-
+tvl.not = x => tvl.revert(-tvl.convert(x));
+tvl.and = (x,y) => tvl.revert(min(tvl.convert(x),tvl.convert(y)));
+tvl.or = (x,y) => tvl.revert(max(tvl.convert(x),tvl.convert(y)));
+tvl.xor = (x,y) => tvl.and(tvl.or(x,y),tvl.not(tvl.and(x,y)));
+tvl.imp = (x,y) => tvl.or(tvl.not(x),y);
+tvl.bi = (x,y) => tvl.and(tvl.imp(x,y),tvl.imp(y,x));
 if(typeof(window) === "undefined") module.exports = tvl;

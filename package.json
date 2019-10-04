@@ -3,7 +3,7 @@
   "version": "1.0.6",
   "description": "A 316B implementation of Three Valued Logic in Javascript",
   "keywords": ["Logic","Tiny","Small","Three","Valued","Three Valued Logic","Propositional","Propositional Logic"],
-  "main": "index.js",
+  "main": "src/index.js",
   "unpkg":"/dist/tvl.min.js",
   "scripts": {
     "test": "npx jest",

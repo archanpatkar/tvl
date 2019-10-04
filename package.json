@@ -1,6 +1,6 @@
 {
   "name": "tvl",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A 316B implementation of Three Valued Logic in Javascript",
   "keywords": ["Logic","Tiny","Small","Three","Valued","Three Valued Logic","Propositional","Propositional Logic"],
   "main": "src/index.js",

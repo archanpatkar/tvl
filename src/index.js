@@ -19,4 +19,4 @@ tvl.or = (x,y) => tvl.revert(max(tvl.convert(x),tvl.convert(y)));
 tvl.xor = (x,y) => tvl.and(tvl.or(x,y),tvl.not(tvl.and(x,y)));
 tvl.imp = (x,y) => tvl.or(tvl.not(x),y);
 tvl.bi = (x,y) => tvl.and(tvl.imp(x,y),tvl.imp(y,x));
-if(typeof(window) === "undefined") module.exports = tvl;
+if(typeof(module) !== "undefined") module.exports = tvl; 
